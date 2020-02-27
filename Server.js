@@ -16,6 +16,6 @@ app.get('/hello/:foo/:bar', function(req,res){res.json({result: 'hello Cct', dat
 
 app.post('/hello', function(req,res){res.json({result: 'The Post request was sent!', data: req.body});
                                     });
-app.listen(port, function(err){console.log("listeningf on port:" + port);
+app.listen(port, function(err){console.log("listening on port:" + port);
                               });
 
